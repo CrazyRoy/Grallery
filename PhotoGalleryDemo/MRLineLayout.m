@@ -38,7 +38,6 @@
  */
 - (BOOL)shouldInvalidateLayoutForBoundsChange:(CGRect)newBounds {
     
-    
     return YES;
 }
 
@@ -47,7 +46,6 @@
  * 在collectionView滑动停止之后collectionView的偏移量
  */
 - (CGPoint)targetContentOffsetForProposedContentOffset:(CGPoint)proposedContentOffset withScrollingVelocity:(CGPoint)velocity {
-    
     
     // 计算出最终显示的矩形框 遍历该矩形框中的cell相对中心线的间距选择最合适的cell进行调整
     CGRect currentRect;

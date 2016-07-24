@@ -10,6 +10,7 @@
 #import "MRLineLayout.h"
 #import "MRCircleLayout.h"
 #import "MRPhotoViewCell.h"
+#import "MRGridLayout.h"
 
 @interface ViewController ()<UICollectionViewDataSource,UICollectionViewDelegate, UICollectionViewDelegateFlowLayout>
 
@@ -121,6 +122,14 @@ static NSString * const photoCellID = @"photo";
         
         return;
         
+    }else if([self.collectionView.collectionViewLayout isKindOfClass:[UICollectionViewFlowLayout class]]){
+        
+        MRGridLayout *layout = [[MRGridLayout alloc] init];
+        
+        [self.collectionView setCollectionViewLayout:layout animated:YES];
+
+        return;
+        
     }else {
         
         MRLineLayout *layout = [[MRLineLayout alloc] init];
@@ -129,7 +138,7 @@ static NSString * const photoCellID = @"photo";
         
         // 重新设置布局
         [self.collectionView setCollectionViewLayout:layout animated:YES];
-
+        
         return;
     }
     

@@ -58,13 +58,13 @@
 
 
 /**
- * 这个方法需要返回indexPath位置对应cell的布局属性
+ * 这个方法需要返回indexPath位置对应cell的布局属性, 如果是继承自UICollectionViewLayout则必须实现这个方法, 继承UICollectionViewFlowLayout可以不用实现
  */
 - (UICollectionViewLayoutAttributes *)layoutAttributesForItemAtIndexPath:(NSIndexPath *)indexPath
 {
     NSInteger count = [self.collectionView numberOfItemsInSection:0];
     
-    CGFloat radius = 70;
+    CGFloat radius = 100;
     // 圆心的位置
     CGFloat oX = self.collectionView.frame.size.width * 0.5;
     CGFloat oY = self.collectionView.frame.size.height * 0.5;

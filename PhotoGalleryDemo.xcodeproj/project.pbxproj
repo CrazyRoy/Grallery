@@ -19,6 +19,7 @@
 		014059591D44AD2A00BC8C3C /* MRPhotoViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 014059571D44AD2A00BC8C3C /* MRPhotoViewCell.m */; };
 		0140595A1D44AD2A00BC8C3C /* MRPhotoViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 014059581D44AD2A00BC8C3C /* MRPhotoViewCell.xib */; };
 		01618DC61D44CAC400B74357 /* MRCircleLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 01618DC51D44CAC400B74357 /* MRCircleLayout.m */; };
+		01FD69E91D451DF30081E89C /* MRGridLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 01FD69E81D451DF30081E89C /* MRGridLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,8 @@
 		014059581D44AD2A00BC8C3C /* MRPhotoViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MRPhotoViewCell.xib; sourceTree = "<group>"; };
 		01618DC41D44CAC400B74357 /* MRCircleLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRCircleLayout.h; sourceTree = "<group>"; };
 		01618DC51D44CAC400B74357 /* MRCircleLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRCircleLayout.m; sourceTree = "<group>"; };
+		01FD69E71D451DF30081E89C /* MRGridLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRGridLayout.h; sourceTree = "<group>"; };
+		01FD69E81D451DF30081E89C /* MRGridLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRGridLayout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +119,8 @@
 				014059541D44A87100BC8C3C /* MRLineLayout.m */,
 				01618DC41D44CAC400B74357 /* MRCircleLayout.h */,
 				01618DC51D44CAC400B74357 /* MRCircleLayout.m */,
+				01FD69E71D451DF30081E89C /* MRGridLayout.h */,
+				01FD69E81D451DF30081E89C /* MRGridLayout.m */,
 				014059561D44AD2A00BC8C3C /* MRPhotoViewCell.h */,
 				014059571D44AD2A00BC8C3C /* MRPhotoViewCell.m */,
 				014059581D44AD2A00BC8C3C /* MRPhotoViewCell.xib */,
@@ -295,6 +300,7 @@
 				014059281D44A7F100BC8C3C /* ViewController.m in Sources */,
 				014059251D44A7F100BC8C3C /* AppDelegate.m in Sources */,
 				014059551D44A87100BC8C3C /* MRLineLayout.m in Sources */,
+				01FD69E91D451DF30081E89C /* MRGridLayout.m in Sources */,
 				014059591D44AD2A00BC8C3C /* MRPhotoViewCell.m in Sources */,
 				01618DC61D44CAC400B74357 /* MRCircleLayout.m in Sources */,
 				014059221D44A7F100BC8C3C /* main.m in Sources */,
